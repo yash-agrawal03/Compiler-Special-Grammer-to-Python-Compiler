@@ -1,0 +1,11 @@
+Section1
+num = 40
+Section1
+num2 = 10
+Section2
+{ myfunc1 if(2) then y=[call myfunc2] x=9 else x=2 end }
+{ myfunc2 if(10) then y=10 x=-9 end return x}
+{ myfunc3 while(2) x=x+2 y=[call myfunc2 with x=5] end }
+{ myfunc4 while(2) x=num2+2 end }
+Section3
+[play with baselevel=2 height=40 width=20]

@@ -1,0 +1,9 @@
+Section1
+x = 40
+y = 10
+Section2
+{ myfunc2 if(10) then y=10 x=-9 end return x}
+{ myfunc1 if(2) then y=[call myfunc2] x=9 else x=2 end }
+{ getlevel if(x) then y=2 end return y}
+Section3
+[play with baselevel=[call getlevel] height=20 width=10 color=random choice=all prob=20]
